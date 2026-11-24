@@ -47,6 +47,3 @@ For individual captures, use Wireshark filters `dns`, `tcp.port == 853`, and `tc
 sudo bash network/cleanup.sh
 ```
 
-## AI disclosure
-
-AI assistance was used to generate the network, measurement and experiment code and README. Review, adapt and verify all code and disclose actual usage under course policy. Existing resolver still needs missing-glue handling, trace reporting, correctness validation and integration testing by its owner.
