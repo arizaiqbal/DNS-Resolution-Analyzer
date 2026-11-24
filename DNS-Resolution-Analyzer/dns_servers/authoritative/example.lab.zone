@@ -1,0 +1,16 @@
+
+$TTL 86400
+@ IN SOA ns.example.lab. admin.example.lab. (
+    2026112401
+    3600
+    1800
+    604800
+    86400
+)
+
+@ IN NS ns.example.lab.
+ns IN A 10.10.3.13
+
+@ IN A 10.10.3.100
+www IN CNAME example.lab.
+test IN A 10.10.3.101

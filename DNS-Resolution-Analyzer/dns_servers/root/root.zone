@@ -1,0 +1,15 @@
+
+$TTL 86400
+@ IN SOA root.lab. admin.root.lab. (
+    2026112402
+    3600
+    1800
+    604800
+    86400
+)
+
+@ IN NS root.lab.
+root.lab. IN A 10.10.3.11
+
+lab. IN NS ns.lab.
+ns.lab. IN A 10.10.3.12
